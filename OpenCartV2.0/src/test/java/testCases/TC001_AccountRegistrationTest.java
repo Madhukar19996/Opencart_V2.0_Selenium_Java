@@ -1,50 +1,39 @@
 package testCases;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
-
 public class TC001_AccountRegistrationTest extends BaseClass {
 	
-	public WebDriver driver;
-	
-	@BeforeTest()
-	public void setup() 
-	{
-		driver=new ChromeDriver();
-		driver.manage().deleteAllCookies();
-		driver.get("https://tutorialsninja.com/demo/");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
-	}
-	@AfterTest()
-	public void tearDown()
-	{
-		driver.quit();
-	}
+
 	
 	@Test()
-	public void verify_account_registration() throws InterruptedException 
-	{
+	public void verify_account_registration()
+	   {   
+		
+		logger.info("****--- Starting TC001_AccountRegistrationTest ---****");
+		try 
+		{
+			
 		HomePage hp=new HomePage(driver);
 		
 		hp.clickMyAccount();
 		
-	
+		logger.info("****--- Clicked on MyAccount link ---****");
+		
 		hp.clickRegistration();
 		
+		logger.info("****--- Clicked on Register link ---****");
+		
 		AccountRegistrationPage rp= new AccountRegistrationPage(driver);
-		Thread.sleep(2000);
+		
+		logger.info("****--- Providing Customer Details ---****");
+		
+		
 		rp.setFirstName(randomString().toUpperCase());
 		rp.setlastName(randomString().toUpperCase());
 		rp.setEmail(randomString()+"@gmail.com"); //random generated the email
@@ -59,9 +48,31 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		rp.setContinue();
 		String confmsg=rp.getConfirmationMsg();
 		
-		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
 		
-	}
+		
+		
+		if(confmsg.equals("Your Account Has Been Created!"))
+		{   logger.info("Confirmation message received: " + confmsg);
+			logger.info("TC001_AccountRegistrationTest Passed");
+			Assert.assertTrue(true);
+		}
+		else
+			
+		{   logger.error("Test Failed...");
+		    logger.debug("Debug logs...");
+			Assert.assertTrue(false);
+		}
+		 //Assert.assertEquals(confmsg,"Your Account Has Been Created!!"); This is Hard Assertion .
+		                                                                 //when H.S is executed after the piece of code is not executed 
+		}
+		catch (Exception e)
+		 {
+			
+			Assert.fail();
+		 }
+		
+		logger.info("****---Finished TC001_AccountRegistrationTest---****");
+	  }
 	
 
 }

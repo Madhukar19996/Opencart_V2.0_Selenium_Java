@@ -1,0 +1,44 @@
+2025-06-05 08:20:37 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
+2025-06-05 08:20:38 INFO  TC001_AccountRegistrationTest:26 - ****--- Clicked on MyAccount link ---****
+2025-06-05 08:20:40 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
+2025-06-05 08:20:40 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
+2025-06-05 08:20:40 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
+2025-06-05 08:20:40 INFO  TC001_AccountRegistrationTest:30 - ****--- Clicked on Register link ---****
+2025-06-05 08:20:40 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
+2025-06-05 08:20:42 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
+2025-06-05 08:20:42 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
+2025-06-05 08:20:42 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
+2025-06-05 08:20:44 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
+2025-06-05 08:20:44 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
+2025-06-05 08:20:44 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
+2025-06-05 08:22:18 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
+2025-06-05 08:22:18 INFO  TC001_AccountRegistrationTest:26 - ****--- Clicked on MyAccount link ---****
+2025-06-05 08:22:19 INFO  TC001_AccountRegistrationTest:30 - ****--- Clicked on Register link ---****
+2025-06-05 08:22:19 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
+2025-06-05 08:22:22 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
+2025-06-05 08:22:22 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
+2025-06-05 08:22:22 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
+2025-06-05 08:23:50 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
+2025-06-05 08:23:58 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
+2025-06-05 08:24:04 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
+2025-06-05 08:25:37 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
+2025-06-05 08:25:37 INFO  TC001_AccountRegistrationTest:26 - ****--- Clicked on MyAccount link ---****
+2025-06-05 08:25:38 INFO  TC001_AccountRegistrationTest:30 - ****--- Clicked on Register link ---****
+2025-06-05 08:25:38 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
+2025-06-05 08:25:42 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
+2025-06-05 08:25:42 INFO  TC001_AccountRegistrationTest:26 - ****--- Clicked on MyAccount link ---****
+2025-06-05 08:25:42 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
+2025-06-05 08:25:43 INFO  TC001_AccountRegistrationTest:30 - ****--- Clicked on Register link ---****
+2025-06-05 08:25:43 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
+2025-06-05 08:25:43 INFO  TC001_AccountRegistrationTest:26 - ****--- Clicked on MyAccount link ---****
+2025-06-05 08:25:45 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
+2025-06-05 08:25:45 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
+2025-06-05 08:25:45 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
+2025-06-05 08:25:45 INFO  TC001_AccountRegistrationTest:30 - ****--- Clicked on Register link ---****
+2025-06-05 08:25:45 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
+2025-06-05 08:25:46 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
+2025-06-05 08:25:46 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
+2025-06-05 08:25:46 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
+2025-06-05 08:25:48 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
+2025-06-05 08:25:48 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
+2025-06-05 08:25:48 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
