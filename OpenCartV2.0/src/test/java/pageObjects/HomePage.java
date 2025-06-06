@@ -19,6 +19,10 @@ WebElement MyAccount_link;
 WebElement Register_link;
 
 
+@FindBy(xpath="//a[normalize-space()='Login']")   // Update by adding login link element by Step 5 
+WebElement login_link;
+
+
 
 public void clickMyAccount()
 {
@@ -29,6 +33,12 @@ public void clickMyAccount()
 public void clickRegistration()
 {
 	Register_link.click();
+}
+
+
+public void clickLogin()
+{
+	login_link.click();
 }
 
 
