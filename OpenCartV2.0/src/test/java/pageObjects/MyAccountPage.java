@@ -17,7 +17,7 @@ public class MyAccountPage extends BasePage {
   WebElement MsgHeading;
   
   
-  @FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")  // Logout from MyAccount Page
+  @FindBy(xpath="//div[@class='list-group']//a[text()='Logout']")  // Logout from MyAccount Page
   WebElement Logout_link;
   
   

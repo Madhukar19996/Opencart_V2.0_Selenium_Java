@@ -11,7 +11,8 @@ import utilities.DataProviders;
 
 
 
-public class TC_003_LoginDDT extends BaseClass {
+public class TC003_LoginDDT extends BaseClass 
+{
 	
 	@Test(dataProvider="LoginData", dataProviderClass=DataProviders.class)  //Getting Data Provider from different class
 	public void verify_loginDDT(String email , String pwd,String exp)
@@ -19,6 +20,8 @@ public class TC_003_LoginDDT extends BaseClass {
 		
 		logger.info("*****Starting TC_003_LoginDDT ****** ");
 		//HomePage
+		try
+		{
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
 		hp.clickLogin();
@@ -32,8 +35,7 @@ public class TC_003_LoginDDT extends BaseClass {
 				
 				
 		//MyAccount Page
-		try
-		{
+		
 		MyAccountPage macc=new MyAccountPage(driver);
 				
 		boolean target_page= macc.isMyAccountExists();
@@ -46,18 +48,20 @@ public class TC_003_LoginDDT extends BaseClass {
 		 */
 		
 		
-		if(exp.equalsIgnoreCase("Valid"))
+		if(exp.equalsIgnoreCase("Valid")) 
 		{
 			if(target_page==true)
 			{
 				macc.clickLogout();
 				Assert.assertTrue(true);
 			}
-		}
-		else
-		{
+		
+		   else
+		   {
 			Assert.assertTrue(false);
-		}
+		   }
+	   }
+		
 		
 		if(exp.equalsIgnoreCase("Invalid"))
 			
@@ -67,17 +71,19 @@ public class TC_003_LoginDDT extends BaseClass {
 				macc.clickLogout();
 				Assert.assertTrue(false);
 			}
-		}
+		
 		else
 		{
 			Assert.assertTrue(true);
 		}
 	}
-	catch(Exception e )
+    
+	}catch(Exception e )
 	{
 		Assert.fail();
 	}
 	logger.info("*****Finished TC_003_LoginDDT ****** ");
 
-}
-}
+    }
+ }
+  
