@@ -1,4 +1,4 @@
-# OpenCart_V1.0_Selenium_Java
+# OpenCart_V2.0_Selenium_Java
 
 Web Automation Framework with POM in Java(Selenium)
 
