@@ -63,4 +63,11 @@ SonarLint, Java > 22
 
 8. https://mvnrepository.com/artifact/org.testng/testng 
 
-9. https://mvnrepository.com/artifact/com.aventstack/extentreports  
+9. https://mvnrepository.com/artifact/com.aventstack/extentreports
+
+##Screenshots
+
+![Extent_Report_OC3](https://github.com/user-attachments/assets/7c0f2370-6536-4637-9fcd-9ff909c9f333)
+![Extent_Report_OC2](https://github.com/user-attachments/assets/24a305ae-cb5b-4c85-be28-7b8bcea0c36d)
+![Extent_Report_OC](https://github.com/user-attachments/assets/8a94d590-0cb0-4dc3-be46-3a0104d727ec)
+
