@@ -1,26 +1,3 @@
-2025-06-09 14:50:35 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
-2025-06-09 14:50:38 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
-2025-06-09 14:50:38 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
-2025-06-09 14:50:38 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
-2025-06-09 14:50:42 INFO  TC002_LoginTest:15 - ***** Started TC002_LoginTest *****
-2025-06-09 14:50:44 INFO  TC002_LoginTest:46 - ***** Finished TC002_LoginTest *****
-2025-06-09 14:59:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Madhukar Pandey\git\repository3\OpenCartV2.0\master.xml"
-2025-06-09 14:59:17 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
-2025-06-09 14:59:18 INFO  TC001_AccountRegistrationTest:26 - ****--- Clicked on MyAccount link ---****
-2025-06-09 14:59:18 INFO  TC001_AccountRegistrationTest:30 - ****--- Clicked on Register link ---****
-2025-06-09 14:59:18 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
-2025-06-09 14:59:21 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
-2025-06-09 14:59:21 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
-2025-06-09 14:59:21 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
-2025-06-09 14:59:24 INFO  TC002_LoginTest:15 - ***** Started TC002_LoginTest *****
-2025-06-09 14:59:26 INFO  TC002_LoginTest:46 - ***** Finished TC002_LoginTest *****
-2025-06-09 15:02:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Madhukar Pandey\git\repository3\OpenCartV2.0\master.xml"
-2025-06-09 15:02:25 INFO  TC001_AccountRegistrationTest:18 - ****--- Starting TC001_AccountRegistrationTest ---****
-2025-06-09 15:02:25 INFO  TC001_AccountRegistrationTest:26 - ****--- Clicked on MyAccount link ---****
-2025-06-09 15:02:26 INFO  TC001_AccountRegistrationTest:30 - ****--- Clicked on Register link ---****
-2025-06-09 15:02:26 INFO  TC001_AccountRegistrationTest:34 - ****--- Providing Customer Details ---****
-2025-06-09 15:02:28 INFO  TC001_AccountRegistrationTest:55 - Confirmation message received: Your Account Has Been Created!
-2025-06-09 15:02:28 INFO  TC001_AccountRegistrationTest:56 - TC001_AccountRegistrationTest Passed
-2025-06-09 15:02:28 INFO  TC001_AccountRegistrationTest:74 - ****---Finished TC001_AccountRegistrationTest---****
-2025-06-09 15:02:32 INFO  TC002_LoginTest:15 - ***** Started TC002_LoginTest *****
-2025-06-09 15:02:35 INFO  TC002_LoginTest:46 - ***** Finished TC002_LoginTest *****
+2025-06-10 08:56:07 INFO  TC002_LoginTest:46 - ***** Finished TC002_LoginTest *****
+2025-06-10 08:56:10 INFO  TC004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2025-06-10 08:56:10 INFO  TC004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
